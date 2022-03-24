@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(248,223,219);
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: auto;
+    height: 40em;
+    background-image: url("../img/nadiaavima040.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
