@@ -15,7 +15,6 @@ body{
 h1{
     margin: 0;
     padding: 0;
-
 }
 a{
     text-decoration: none;
@@ -65,4 +64,25 @@ a{
     padding-top: 410px;
     font-family: Italiana;
     font-weight: lighter;
+}
+.themeaning{
+    font-family: Italiana;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(201,35,30);
+    padding: 2rem 2rem;
+}
+.firstpart{
+    margin: 3em 3em 3em 3em;
+}
+.firstparttext{
+    font-size: 25px;
+}
+.firstparttext2{
+    font-size: 18px;
+}
+.Part1Text{
+    padding: 3em 3em;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
