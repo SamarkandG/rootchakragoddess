@@ -1,3 +1,5 @@
+/* FONTS */
+
 @font-face {
     font-family: Italiana ;
     src: url(".././fonts/Italiana/Italiana-Regular.ttf");
@@ -7,10 +9,13 @@
     src: url(".././fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf");
 }
 
+/* FIRST THING FIRST */
+
+
 body{
-    background-color:rgb(248,223,219);
     margin: 0;
     padding: 0;
+    background-color: rgb(248,223,219);
 }
 h1{
     margin: 0;
@@ -22,6 +27,13 @@ a{
     padding: 0;
     color: rgb(201,35,30);
 }
+.blacklinks{
+    color: black;
+}
+
+/* NAVBAR */
+
+
 .nav{
     display: flex;
     justify-content: space-between;
@@ -47,6 +59,10 @@ a{
     margin-right: 3em;
     font-family: PlayfairItalic;
 }
+
+/* BANNER */
+
+
 .banner{
     width: auto;
     height: 40em;
@@ -65,6 +81,10 @@ a{
     font-family: Italiana;
     font-weight: lighter;
 }
+
+/* PART 1 */
+
+
 .themeaning{
     font-family: Italiana;
     font-size: 40px;
@@ -85,4 +105,27 @@ a{
     padding: 3em 3em;
     margin-left: 8rem;
     margin-right: 8rem;
+}
+
+/* PART 2 */
+
+.secondpart{
+    margin: 3em 3em 3em 3em;
+}
+
+.beforewebegin{
+    font-family: Italiana;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    color: rgb(201,35,30);
+}
+.Part2Text{
+    font-size: 18px;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+.importantsentence{
+    font-size: 25px;
 }
